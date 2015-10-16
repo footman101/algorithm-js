@@ -8,7 +8,9 @@ var random = require('../../lib/random/random');
 var quickSort = require('../../lib/sort/quickSort');
 
 // 快速排序
-var array = random.array(10);
+var array = random.array(10, 1, 5);
 console.log(array);
 quickSort.sort(array);
 console.log(array);
+
+
